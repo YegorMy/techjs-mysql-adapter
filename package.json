@@ -1,0 +1,36 @@
+{
+  "name": "techjs-mysql-adapter",
+  "version": "0.0.1",
+  "description": "Smart MySQL Adapter",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YegorMy/techjs-mysql-adapter.git"
+  },
+  "keywords": [
+    "mysql",
+    "adapter",
+    "techjs",
+    "database"
+  ],
+  "author": "YegorMY <egorsm00@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YegorMy/techjs-mysql-adapter/issues"
+  },
+  "homepage": "https://github.com/YegorMy/techjs-mysql-adapter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "mysql2": "^1.2.0"
+  }
+}
